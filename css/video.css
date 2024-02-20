@@ -1,0 +1,58 @@
+/* Estilos CSS para el reproductor de vídeo */
+/* Estilos CSS para el reproductor de vídeo */
+#videoPlayer {
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#videoPlayer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#videoControls {
+    margin-top: 10px;
+}
+
+#videoControls button {
+    margin: 5px;
+    background-color: #ff0000; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#videoControls button:hover {
+    background-color: #cc0000; /* Cambiar el color de fondo al pasar el ratón */
+}
+
+#volume {
+    vertical-align: middle;
+}
+
+#playlist {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#playlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+#playlist ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#playlist ul li:last-child {
+    margin-right: 0;
+}

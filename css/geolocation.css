@@ -1,0 +1,10 @@
+#map{
+    width: 800px;
+    height: 600px;
+}
+#map2{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}

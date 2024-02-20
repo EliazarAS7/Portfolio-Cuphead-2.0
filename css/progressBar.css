@@ -1,0 +1,95 @@
+.progress-bar{
+    width: 80%;
+    height: 10px;
+    background-color: #e1dede;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: progress 3s ease-in-out forwards;
+}
+
+.b-0 {
+    height: 100%;
+    width: 0%;
+    background-color: #FF1E1E;
+}
+
+.b-10 {
+    height: 100%;
+    width: 10%;
+    background-color: #FF1E1E;
+    
+}
+
+.b-20 {
+    height: 100%;
+    width: 20%;
+    background-color: #FF1E1E;
+    
+}
+
+.b-30 {
+    height: 100%;
+    width: 30%;
+    background-color: #FF1E1E;
+    
+}
+
+.b-40 {
+    height: 100%;
+    width: 40%;
+    background-color: #FF1E1E;
+    
+}
+
+.b-50 {
+    height: 100%;
+    width: 50%;
+    background-color: #FF1E1E;
+    
+}
+
+.b-60 {
+    height: 100%;
+    width: 60%;
+    background-color: #FF1E1E;
+    
+}
+
+.b-70 {
+    height: 100%;
+    width: 70%;
+    background-color: #FF1E1E;
+    
+}
+
+.b-80 {
+    height: 100%;
+    width: 80%;
+    background-color: #FF1E1E;
+    
+}
+
+.b-90 {
+    height: 100%;
+    width: 90%;
+    background-color: #FF1E1E;
+    
+}
+
+.b-100 {
+    height: 100%;
+    width: 100%;
+    background-color: #FF1E1E;
+    
+}
+
+
+@keyframes progress {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
